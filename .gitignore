@@ -1,8 +1,33 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-*.log
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Models & large files (optional)
 models/
+*.h5
+*.pkl
+
+# Dataset files (optional if too big)
+dataset/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Environment variables
+.env
